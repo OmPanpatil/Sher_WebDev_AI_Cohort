@@ -9,3 +9,18 @@ html,body{
     width: 100%;
 }
 
+#backg{
+    width: 15vw;
+    height: 30vh;
+    background: linear-gradient(to right bottom,red, yellow);
+    border-radius: 50%;
+    box-shadow: 2vw 1.5vw 2vw orangered;
+}
+
+p{
+    padding: 2vw;
+    border: 2px solid purple;
+    width: 10vw;
+    border-radius: 15vw;
+}
+
