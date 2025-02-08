@@ -133,3 +133,17 @@ html,body{
     grid-row: 1/4;
     grid-column: 3;
 }
+
+#right-symbol-upper{
+    background-color: red;
+    width: 100%;
+    height: 10vh;
+    position: relative;
+}
+
+#content{
+    background-color:blue;
+    width: 100%;
+    height: calc(100% - 10vh);
+    position: relative;
+}
