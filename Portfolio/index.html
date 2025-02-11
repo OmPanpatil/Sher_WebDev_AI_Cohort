@@ -7,31 +7,46 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="w-full px-[10rem] py-8">
+    <main class="w-full px-[10rem] py-8 font-(family:Haelvetica)">
         <nav class="flex justify-between items-center">
             <h1 class="text-xl font-medium">
                 Portfolio
             </h1>
-            <div class="links">
 
+            <div class="links flex gap-4 ">
+                <a class="text-lg font-medium bgcolor-rgb(54, 69, 79) opacity-40 hover:opacity-100 tracking-tighter" href="#">Home</a>
+                <a class="text-lg font-medium bgcolor-rgb(54, 69, 79) opacity-40 hover:opacity-100 tracking-tighter" href="#">Socials</a>
+                <a class="text-lg font-medium bgcolor-rgb(54, 69, 79) opacity-40 hover:opacity-100 tracking-tighter" href="#">Projects</a>
+                <a class="text-lg font-medium bgcolor-rgb(54, 69, 79) opacity-40 hover:opacity-100 tracking-tighter" href="#">Contacts</a>
             </div>
 
         </nav>
 
-        <section class="w-full mt-20">
+        <section class="w-full mt-20 flex justify-between items-end">
             <div class="leftheadings">
                 <h6 class="text-2xl -mb-3 tracking-tighter font-bold">Hello, I am</h6>
-                <h1 class="text-9xl -ml-2 tracking-tighter font-bold">Om.</h1>
+                <h1 class="text-9xl -ml-1 tracking-tighter font-bold leading-none">Om.</h1>
             </div>
-            <div class="rightheading flex gap-3 items-end">
-                <h4></h4>
+            <div class="rightheading gap-3 flex items-center">
+                <h4 class="font-medium tracking-tighter">[ 06:49PM ]</h4>
+                <div class="w-32 h-[1px] bg-black"></div>
+                <h3 class="font-medium tracking-tight ">Creative Front End Developer</h3>
             </div>
 
 
         </section>
 
         <section class="picture w-full h-[50rem] mt-10 bg-red-500">
-            <img class="w-full h-full object-cover object-[0%_20%]" src="./images/three.jpg" alt="Image">
+            <img class="w-full h-full object-cover object-[0%_60%]" src="./images/three.jpg" alt="Image">
+        </section>
+
+        <section class="experience w-full h-[20rem] mt-15 relative px-[3rem] py-[3rem]">
+            <h2 class="font-medium text-4xl absolute top-15 left-90 -translate(-50,-50)">[I design & build experiences]</h2>
+            <p class="text-center mt-3 font-medium text-lg w-5xl absolute top-30 left-10 -translate(-50,-50)">I’m Om Panpatil, a passionate designer and developer who thrives on crafting engaging digital experiences. I design and build intuitive, user-friendly interfaces with a focus on clean aesthetics and functionality. Whether it's a website, app, or creative project, my goal is to merge innovation with user-centered design to bring ideas to life.</p>
+            <img class="w-14 h-[8vh] px-[1/2rem] py-[1/2rem] rotate-340 absolute left-30" src="./images/visual-studio-code.png" alt="Visual studio code">
+            <img class="w-14 h-[8vh] px-[1/2rem] py-[1/2rem] rotate-30 absolute left-250" src="./images/html.png" alt="HTMl">
+            <img class="w-14 h-[8vh] px-[1/2rem] py-[1/2rem] rotate-30 absolute top-63 left-180" src="./images/javascript.png" alt="JS">
+            <img class="w-14 h-[8vh] px-[1/2rem] py-[1/2rem] rotate-330 absolute top-57 left-50" src="./images/css.png" alt="CSS">
         </section>
 
     </main>
